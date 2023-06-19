@@ -37,7 +37,7 @@ namespace ConsoleMVC.Model
 
         public double CalculateTip()
         {
-            return Amount * percent;
+            return Amount * Percent;
         }
 
         public double CalculateTotal()
